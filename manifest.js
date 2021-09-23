@@ -45,13 +45,23 @@
 // alert(treats + " taste delicious ");
 // alert("The best place to study and hang out is " + location_to_study);
 // ==============================================
-var newJob = "Full stack dev";
-var oldJob = "Mechanic";
-var theMissionIs = "Make money";
-var legacy_to_leave = "Kids wont have to struggle like i did";
+// var newJob = "Full stack dev";
+// var oldJob = "Mechanic";
+// var theMissionIs = "Make money";
+// var legacy_to_leave = "Kids wont have to struggle like i did";
 
-alert(" I finished the UNC " + newJob + " program ");
-alert(" being a " + oldJob + " hardly pays the bills ");
-alert(" im on a mission to " + theMissionIs + " that way " + legacy_to_leave);
+// alert(" I finished the UNC " + newJob + " program ");
+
+// alert(" being a " + oldJob + " hardly pays the bills ");
+// alert(" im on a mission to " + theMissionIs + " that way " + legacy_to_leave);
 // ==============================================
+var comfort = "Lazy";
+var noMoney = "Broke";
+var Ambition = "Life Style Changes";
+
+alert(" Spent all year " + comfort);
+alert(" This is bad it will keep you " + noMoney);
+alert(
+  " In order for a change stop being " + comfort + " Then your " + Ambition
+);
 // ==============================================
