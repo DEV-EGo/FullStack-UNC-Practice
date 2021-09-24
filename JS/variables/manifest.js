@@ -75,6 +75,7 @@
 
 // The console.log() method is used to display data in the browser's console.
 // We can log strings, variables, and even equations.
+console.log("================================================");
 
 var fastest = "Fox";
 var Slowest = "Turtle";
@@ -85,6 +86,7 @@ console.log(fastest);
 console.log(Slowest);
 console.log(theNumberIs + 25);
 // ==============================================
+console.log("================================================");
 
 var burger = "Burger King";
 var tacos = "not taco bell";
@@ -95,3 +97,35 @@ console.log(burger);
 console.log(chinese);
 console.log(tacos);
 console.log(payforfood * 2);
+// ==============================================
+
+console.log("================================================");
+// ### Instructions
+
+// * Using the file above as a guide, modify the code so that it uses `console.log` instead of alerts to display messages.
+
+// * With a partner, discuss the difference between using `console.log` and `alert`.
+
+// Variables
+var name = "Joe Frasier";
+var pizzaCount = 15;
+var isHungry = true;
+var totalCost = pizzaCount * 5.0;
+
+// Instructions: Replace each of the "alert" functions below with "console.log()"
+
+// alert("Welcome: " + name);
+
+console.log("welcome" + name);
+
+// alert("Pizzas cost $5 each");
+
+console.log("Pizzas cost $5 each");
+
+// alert("Your total is: $" + totalCost);
+
+console.log("Your total is: $" + totalCost);
+
+// alert("Still Hungry: " + isHungry);
+
+console.log("Still Hungry" + isHungry);
