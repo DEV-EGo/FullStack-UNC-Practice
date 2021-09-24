@@ -65,10 +65,33 @@
 //   " In order for a change stop being " + comfort + " Then your " + Ambition
 // );
 // ==============================================
-var versus = "Dipset";
-var HipHop = "Battle of old school hip hop";
-var what_day = "Thursday";
+// var versus = "Dipset";
+// var HipHop = "Battle of old school hip hop";
+// var what_day = "Thursday";
 
-alert("The LOX embarrased" + versus);
-alert(HipHop + " is aired on live stream " + what_day + "at 9pm EST");
+// alert("The LOX embarrased" + versus);
+// alert(HipHop + " is aired on live stream " + what_day + "at 9pm EST");
 // ==============================================
+
+// The console.log() method is used to display data in the browser's console.
+// We can log strings, variables, and even equations.
+
+var fastest = "Fox";
+var Slowest = "Turtle";
+var theNumberIs = 10;
+
+console.log("Ronaldo");
+console.log(fastest);
+console.log(Slowest);
+console.log(theNumberIs + 25);
+// ==============================================
+
+var burger = "Burger King";
+var tacos = "not taco bell";
+var chinese = "hibachi";
+var payforfood = 15;
+
+console.log(burger);
+console.log(chinese);
+console.log(tacos);
+console.log(payforfood * 2);
