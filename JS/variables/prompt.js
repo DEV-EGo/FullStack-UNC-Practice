@@ -15,8 +15,22 @@
 // alert(wheelstobuy);
 // alert(buytheseWheels);
 
-var deals = confirm("Are you looking for a deal?");
-var letGo = prompt("what brand?");
+// var deals = confirm("Are you looking for a deal?");
+// var letGo = prompt("what brand?");
 
-alert(deals);
-alert(letGo);
+// alert(deals);
+// alert(letGo);
+
+// =================================================================
+// var music = confirm("Do you listen to the alternative");
+// var musiclabel = prompt("What is you choice of music?");
+
+// alert(music);
+// alert(musiclabel);
+// =================================================================
+
+var food = confirm("Do you like ethnic food?");
+var foodMenu = prompt("What is your favorite food?");
+
+alert(food);
+alert(foodMenu);
