@@ -23,9 +23,25 @@
 
 console.log("================================================");
 
-var DoYouWearStreetWear = confirm("Are you into the latest urban fashion?");
+// var DoYouWearStreetWear = confirm("Are you into the latest urban fashion?");
 
-var HypeBeast = prompt("Input the brand you like buy");
+// var HypeBeast = prompt("Input the brand you like buy");
 
-alert(DoYouWearStreetWear + "we carry an asortment");
-alert(" we have" + HypeBeast + " in stock");
+// alert(DoYouWearStreetWear + "we carry an asortment");
+// alert(" we have" + HypeBeast + " in stock");
+
+console.log("================================================");
+
+// var lunctime = confirm("Are you ready for lunch?");
+// var whatToMunchOn = prompt(" what are you trying to eat todays?");
+
+// alert(lunctime);
+// alert(whatToMunchOn + "?" + " , fine then lets eat!");
+
+console.log("================================================");
+
+var popdrinks = confirm("do you like sodas?");
+var normalwater = prompt("do you like to drink water?");
+
+alert(popdrinks);
+alert(normalwater + " , is the best option");
