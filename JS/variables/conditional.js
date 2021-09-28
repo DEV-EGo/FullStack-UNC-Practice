@@ -15,3 +15,12 @@ else if (confirmGingerTea) {
 else {
   alert("You don't like sushi or ginger tea.");
 }
+
+// =================================================================================================
+// Here we create our prompt and confirm variables which will store user input.
+
+// If the user likes sushi (confirmSushi === true), we run the following block of code.
+
+// If the user likes ginger tea (confirmGingerTea === true), we run the following block of code.
+
+// If neither of the previous condition were true, we run the following block of code.
