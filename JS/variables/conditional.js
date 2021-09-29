@@ -84,25 +84,25 @@
 //   alert(" you like justin bieber you cant rock with us");
 // }
 // =================================================================================================
-var tickets_inStock = confirm("Are you trying to buy tickets for the event?");
-var are_you_ready = confirm("Ready for the concert?");
-var what_event_are_you_interestedIn = prompt(
-  "What event do you want to attend?"
-);
-var day_toChoose = prompt(" fill out the day you are searching for");
+// var tickets_inStock = confirm("Are you trying to buy tickets for the event?");
+// var are_you_ready = confirm("Ready for the concert?");
+// var what_event_are_you_interestedIn = prompt(
+//   "What event do you want to attend?"
+// );
+// var day_toChoose = prompt(" fill out the day you are searching for");
 
-if (tickets_inStock) {
-  alert("Name of event :" + what_event_are_you_interestedIn);
-} else if (day_toChoose) {
-  alert(are_you_ready + " 🎸");
-} else {
-  alert(" You cant headbang today");
-}
+// if (tickets_inStock) {
+//   alert("Name of event :" + what_event_are_you_interestedIn);
+// } else if (day_toChoose) {
+//   alert(are_you_ready + " 🎸");
+// } else {
+//   alert(" You cant headbang today");
+// }
 // =================================================================================================
-var devices = confirm(" a new phone ");
+var devices = confirm(" need new phone? ");
 var cell_provider = prompt(" what company are you currently connected to");
 var upgrade_value = confirm(" ready for upgrade?");
-var ready_upgrade_now = prompt(" heres what is new in stock?");
+var ready_upgrade_now = prompt(" what phone are you looking for?");
 
 if (devices) {
   alert(" you are under" + cell_provider);
