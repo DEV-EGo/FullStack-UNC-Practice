@@ -60,14 +60,44 @@
 //   document.write(" no hotdog ");
 // }
 // =================================================================================================
-var this_is_a_test = confirm(" confirm this is a test!");
-var are_you_sure_test = confirm(" are you sure you confirming this test?");
-var Getting_in = prompt(" why are you interested in joining this test");
+// var this_is_a_test = confirm(" confirm this is a test!");
+// var are_you_sure_test = confirm(" are you sure you confirming this test?");
+// var Getting_in = prompt(" why are you interested in joining this test");
 
-if (this_is_a_test) {
-  alert(" You are in lets : " + Getting_in);
-} else if (are_you_sure_test) {
-  alert(" come on in");
+// if (this_is_a_test) {
+//   alert(" You are in lets : " + Getting_in);
+// } else if (are_you_sure_test) {
+//   alert(" come on in");
+// } else {
+//   alert("acess denied");
+// }
+// =================================================================================================
+// var rockbands = confirm(" Do you like Rock n Roll");
+// var LetsRock = confirm(" Lets Rock n Roll");
+// var Rock_question = prompt("what is your favorite band?");
+
+// if (rockbands) {
+//   alert(Rock_question + "lets rock");
+// } else if (LetsRock) {
+//   alert(" Are you ready ?");
+// } else {
+//   alert(" you like justin bieber you cant rock with us");
+// }
+// =================================================================================================
+var tickets_inStock = confirm("Are you trying to buy tickets for the event?");
+var are_you_ready = confirm("Ready for the concert?");
+var what_event_are_you_interestedIn = prompt(
+  "What event do you want to attend?"
+);
+var day_toChoose = prompt(" fill out the day you are searching for");
+
+if (tickets_inStock) {
+  alert("Name of event :" + what_event_are_you_interestedIn);
+} else if (day_toChoose) {
+  alert(are_you_ready + " 🎸");
 } else {
-  alert("acess denied");
+  alert(" You cant headbang today");
 }
+// =================================================================================================
+// =================================================================================================
+// =================================================================================================
