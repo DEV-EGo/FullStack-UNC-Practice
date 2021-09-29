@@ -99,5 +99,16 @@ if (tickets_inStock) {
   alert(" You cant headbang today");
 }
 // =================================================================================================
+var devices = confirm(" a new phone ");
+var cell_provider = prompt(" what company are you currently connected to");
+var upgrade_value = confirm(" ready for upgrade?");
+var ready_upgrade_now = prompt(" heres what is new in stock?");
+
+if (devices) {
+  alert(" you are under" + cell_provider);
+} else if (upgrade_value) {
+  alert(ready_upgrade_now + " buy it now");
+}
+alert(" you have bad credit");
 // =================================================================================================
 // =================================================================================================
