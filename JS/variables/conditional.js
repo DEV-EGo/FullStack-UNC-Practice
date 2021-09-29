@@ -53,10 +53,10 @@ var hate_animals = confirm(" you hate animals ?");
 var you_getNoAnimals = prompt("denied a fuzzy animal");
 
 if (animal_planet) {
-  alert("lion" + hate_animals);
+  alert(" lion " + you_getNoAnimals + " ! ");
 } else if (hate_animals) {
-  alert("ewww");
+  alert(" ewww ");
 } else {
-  document.write("no hotdog");
+  document.write(" no hotdog ");
 }
 // =================================================================================================
