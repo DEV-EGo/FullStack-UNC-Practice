@@ -36,14 +36,26 @@
 // }
 // =================================================================================================
 
-var snkrs_access = confirm("");
-var snkrs_confirm = confirm("");
-var snkrs_take_thisL = prompt("");
+// var snkrs_access = confirm("");
+// var snkrs_confirm = confirm("");
+// var snkrs_take_thisL = prompt("");
 
-if (snkrs_access) {
-  alert("test" + snkrs_confirm);
-} else if (snkrs_confirm) {
-  aler("");
+// if (snkrs_access) {
+//   alert("test" + snkrs_confirm);
+// } else if (snkrs_confirm) {
+//   aler("");
+// } else {
+//   document.write("mm...");
+// }
+// =================================================================================================
+var animal_planet = confirm(" do you like animals ?");
+var hate_animals = confirm(" you hate animals ?");
+var you_getNoAnimals = prompt("denied a fuzzy animal");
+
+if (animal_planet) {
+  alert("lion" + hate_animals);
+} else if (hate_animals) {
+  alert("ewww");
 } else {
-  document.write("mm...");
+  document.write("no hotdog");
 }
