@@ -48,15 +48,26 @@
 //   document.write("mm...");
 // }
 // =================================================================================================
-var animal_planet = confirm(" do you like animals ?");
-var hate_animals = confirm(" you hate animals ?");
-var you_getNoAnimals = prompt("denied a fuzzy animal");
+// var animal_planet = confirm(" do you like animals ?");
+// var hate_animals = confirm(" you hate animals ?");
+// var you_getNoAnimals = prompt("denied a fuzzy animal");
 
-if (animal_planet) {
-  alert(" lion " + you_getNoAnimals + " ! ");
-} else if (hate_animals) {
-  alert(" ewww ");
-} else {
-  document.write(" no hotdog ");
-}
+// if (animal_planet) {
+//   alert(" lion " + you_getNoAnimals + " ! ");
+// } else if (hate_animals) {
+//   alert(" ewww ");
+// } else {
+//   document.write(" no hotdog ");
+// }
 // =================================================================================================
+var this_is_a_test = confirm(" confirm this is a test!");
+var are_you_sure_test = confirm(" are you sure you confirming this test?");
+var Getting_in = prompt(" why are you interested in joining this test");
+
+if (this_is_a_test) {
+  alert(" You are in lets : " + Getting_in);
+} else if (are_you_sure_test) {
+  alert(" come on in");
+} else {
+  alert("acess denied");
+}
