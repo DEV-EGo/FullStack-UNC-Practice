@@ -105,10 +105,10 @@ var upgrade_value = confirm(" ready for upgrade?");
 var ready_upgrade_now = prompt(" what phone are you looking for?");
 
 if (devices) {
-  alert(" you are under" + cell_provider);
-} else if (upgrade_value) {
-  alert(ready_upgrade_now + " buy it now");
+  alert("hey" + upgrade_value);
+} else if (cell_provider) {
+  alert(ready_upgrade_now);
+} else {
+  alert(" Bad Credit you are denied an upgrade");
 }
-alert(" you have bad credit");
-// =================================================================================================
 // =================================================================================================
