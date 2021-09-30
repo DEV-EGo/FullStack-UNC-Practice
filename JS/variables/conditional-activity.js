@@ -26,3 +26,23 @@ else if (birthYear > 1997) {
 else {
   alert("You inched by! Sake Sake Sake!");
 }
+// ===============================
+
+var goToMovies = confirm("Do you want to go to the movies?");
+if (goToMovies) {
+  document.write("lets go!");
+} else {
+  document.write("stay home watch some netflix");
+}
+
+var CanYougetIn = prompt(
+  " You have to be 18 years and older to watch this movie"
+);
+
+if (CanYougetIn < 2009) {
+  alert("You have to be 18 years and older to watch this movie");
+} else if (CanYougetIn > 2009) {
+  alert("get in");
+} else {
+  alert("You got in!");
+}
