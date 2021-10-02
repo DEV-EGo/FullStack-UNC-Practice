@@ -34,3 +34,24 @@ var Gaming_Consoles = [
 console.log(Gaming_Consoles.length);
 console.log(Gaming_Consoles[4]);
 console.log(Gaming_Consoles[7]);
+// =================================================================
+var CurrentJobs = ["RGX", "Ecommerce", "Bartender"];
+console.log(CurrentJobs.length);
+console.log(CurrentJobs[2]);
+console.log(CurrentJobs[5]);
+// =================================================================
+var Place_to_visit = ["Mexico", "Rome", "Africa", "Egypt", "Japan"];
+console.log(Place_to_visit.length);
+console.log(Place_to_visit[3]);
+console.log(Place_to_visit[6]);
+// =================================================================
+var Netflix_shows = [
+  "BAHKI",
+  "Squid Games",
+  "Sell D. Online Fast",
+  "American Horro Story",
+  "Walking Dead",
+];
+console.log(Netflix_shows.length);
+console.log(Netflix_shows[1]);
+console.log(Netflix_shows[9]);
