@@ -55,3 +55,29 @@ var Netflix_shows = [
 console.log(Netflix_shows.length);
 console.log(Netflix_shows[1]);
 console.log(Netflix_shows[9]);
+// =================================================================
+var Animes_to_watch = [
+  "Bahki",
+  "DBZ",
+  "Gundam",
+  "One piece",
+  "Death Note",
+  "The Boondocks",
+];
+console.log(Animes_to_watch.length);
+console.log(Animes_to_watch[4]);
+console.log(Animes_to_watch[9]);
+// =================================================================
+var cars_to_race = [
+  "viper",
+  "Supra",
+  "McClaren",
+  "Ferrari",
+  "Hell Cat",
+  "GTR",
+  "Chevelle",
+];
+
+console.log(cars_to_race.length);
+console.log(cars_to_race[4]);
+console.log(cars_to_race[9]);
