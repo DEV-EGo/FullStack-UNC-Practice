@@ -81,3 +81,30 @@ var cars_to_race = [
 console.log(cars_to_race.length);
 console.log(cars_to_race[4]);
 console.log(cars_to_race[9]);
+// =================================================================
+// Fill in the question marks with what the output will be.
+var animals = ["parrot", "cat", "dog"];
+
+// 3
+console.log(animals.length);
+
+// cat
+console.log(animals[1]);
+
+// dog
+console.log(animals[2]);
+
+// parrot
+console.log(animals[0]);
+
+// 2
+console.log(animals[animals.length]);
+
+// cat
+console.log(animals[animals.length - 1]);
+
+// 3
+console.log(animals.indexOf("bear"));
+
+// 0
+console.log(animals.indexOf("parrot"));
