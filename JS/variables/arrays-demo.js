@@ -103,7 +103,7 @@ console.log(animals[animals.length]);
 // cat
 console.log(animals[animals.length - 1]);
 
-// 3
+// -1
 console.log(animals.indexOf("bear"));
 
 // 0
