@@ -13,3 +13,39 @@ if (MyBands.indexOf(GuessUserLower) === -1) {
 else {
   alert("They rock!");
 }
+
+// ===============================
+
+// var thingsToEat = [
+//   "Tacos",
+//   "Burgers",
+//   "Pizza",
+//   "Spaghetti",
+//   "Cake",
+//   "Chiken Wings",
+// ];
+
+// var CustomerUser = prompt("what would you like to order?");
+
+// var CustomerUserLower = CustomerUser.toLowerCase();
+
+// if (thingsToEat.indexOf(CustomerUserLower) === -1) {
+//   alert("That sounds delicious");
+// } else {
+//   alert("We dont carry that");
+// }
+
+// =================================================================================================
+var bitcoin = ["BTC", "LTC", "DODGE", "DAI", "LUNAR", "DOT", "BCH"];
+
+var coins_to_buy = prompt(
+  " are you interested in buying your first crypto coin?"
+);
+
+var crypto_to_lowercase = coins_to_buy.toLowerCase();
+
+if (bitcoin.indexOf(coins_to_buy) === -1) {
+  alert(" cha!-ching!");
+} else {
+  alert("USD for you! no crypto.");
+}
