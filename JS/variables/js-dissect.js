@@ -47,5 +47,31 @@ var Confirm_Guest = confirm("would you like acess?");
 
 var guestName = "";
 var guestType = "";
-var guessAge = "";
+var guestAge = 28;
 var guestIsHuman = true;
+
+if (Confirm_Guest) {
+  alert(guestName + "" + guestType + "" + guestAge);
+} else {
+  alert("you cant come in");
+}
+
+if (guestIsHuman) {
+  alert("are you human?");
+} else {
+  alert("you are not human");
+}
+
+if (guestAge !== 18) {
+  alert("you are not old enough");
+}
+
+if(guestAge === 28){
+    else if(guestAge < 28){
+        alert("you are younger than 28 years old");
+    }else {
+        alert("you are older than 28 years old");
+    }
+}
+
+document.write("welcome" + guestName);
