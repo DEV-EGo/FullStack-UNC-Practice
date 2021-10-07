@@ -66,12 +66,12 @@ if (guestAge !== 18) {
   alert("you are not old enough");
 }
 
-if(guestAge === 28){
-    else if(guestAge < 28){
-        alert("you are younger than 28 years old");
-    }else {
-        alert("you are older than 28 years old");
-    }
+if (guestAge === 28) {
+  alert("you are old enough");
+} else if (guestAge < 28) {
+  alert("you are younger than 28 years old");
+} else {
+  alert("you are older than 28 years old");
 }
 
-document.write("welcome" + guestName);
+alert("welcome" + guestName);
