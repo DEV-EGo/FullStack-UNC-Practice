@@ -68,3 +68,36 @@ var hot_sauce = [
 for (var i = 0; i < hot_sauce.length; i++) {
   console.log(" Put some " + hot_sauce[i] + " on them tacos");
 }
+
+console.log("================================================================");
+
+var football_teams = [
+  "Panthers",
+  "Eagles",
+  "Giants",
+  "Patriots",
+  "Jaguars",
+  "Bengals",
+  "Bears",
+];
+
+for (var i = 0; i < football_teams.length; i++) {
+  console.log(
+    " Player one chose the " + football_teams[i] + " as their starting line up"
+  );
+}
+
+console.log("================================================================");
+
+var waters_to_drink = [
+  "aqua fina",
+  "tap water",
+  "ever clear",
+  "kool-aid",
+  "evian",
+  "pure life",
+];
+
+for (var i = 0; i < waters_to_drink.length; i++) {
+  console.log(" drink some " + waters_to_drink[i] + " to rehydrate");
+}
