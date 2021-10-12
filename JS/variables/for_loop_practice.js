@@ -45,3 +45,26 @@ for (var i = 0; i < JDM_Bro.length; i++) {
   console.log(" Lets Race " + JDM_Bro[i]);
 }
 console.log("================================================================");
+
+var hypebeast_clothing = ["YZY", "FOG", "SUPREME", "BAPE", "KITH", "Y-3"];
+
+for (var i = 0; i < hypebeast_clothing.length; i++) {
+  console.log(
+    " you just put on " + hypebeast_clothing[i] + " , Stay fresh my friend"
+  );
+}
+
+console.log("================================================================");
+
+var hot_sauce = [
+  " Salsa Roja",
+  "Salsa Verde",
+  "Jalisco",
+  "Valentina",
+  "Tapatio",
+  "Texas Pete",
+];
+
+for (var i = 0; i < hot_sauce.length; i++) {
+  console.log(" Put some " + hot_sauce[i] + " on them tacos");
+}
