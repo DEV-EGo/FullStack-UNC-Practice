@@ -37,7 +37,7 @@ var sodas = [
 for (var s = 0; s < sodas.length; s++) {
   console.log(sodas[s]);
 }
-console.log("================================================");
+console.log("================function============================");
 
 function sodaList(thislist) {
   for (var t = 0; t < thislist.length; t++) {
@@ -45,3 +45,27 @@ function sodaList(thislist) {
   }
 }
 sodaList(sodas);
+
+console.log("================================================");
+
+var artist = [
+  "jay-z",
+  "Nas",
+  "2pac",
+  "Biggie",
+  "Big L",
+  "Big Pun",
+  "Wu-Tang",
+  "Juice Wrld",
+];
+
+for (var n = 0; n < artist.length; n++) {
+  console.log(artist[n]);
+}
+console.log("================function============================");
+function rapper(artistList) {
+  for (var u = 0; u < artistList.length; u++) {
+    console.log(artistList[u]);
+  }
+}
+rapper(artist);
