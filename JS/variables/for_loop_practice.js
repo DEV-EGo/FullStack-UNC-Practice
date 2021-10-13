@@ -101,3 +101,18 @@ var waters_to_drink = [
 for (var i = 0; i < waters_to_drink.length; i++) {
   console.log(" drink some " + waters_to_drink[i] + " to rehydrate");
 }
+console.log("================================================================");
+
+var mexican_food = [
+  "TACOS",
+  "TORTAS",
+  "SOPES",
+  "SOPA",
+  "ARROZ",
+  "MENUDO",
+  "COSTILLA",
+];
+
+for (var i = 0; i < mexican_food.length; i++) {
+  console.log(mexican_food[i]);
+}
