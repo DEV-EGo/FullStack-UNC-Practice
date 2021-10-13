@@ -69,3 +69,25 @@ function rapper(artistList) {
   }
 }
 rapper(artist);
+console.log("================================================");
+
+var rockband = [
+  "LINKIN PARK",
+  "The Rollingstones",
+  "Nirvana",
+  "The Doors",
+  "Rammnstein",
+  "3 days grace",
+  "Shinedown",
+];
+
+for (var s = 0; s < rockband.length; s++) {
+  console.log(rockband[s]);
+}
+console.log("================function============================");
+function letsRock(rockbands) {
+  for (var r = 0; r < rockbands.length; r++) {
+    console.log(rockbands[r]);
+  }
+}
+letsRock(rockband);
