@@ -114,3 +114,25 @@ function cellular(PhonesToSell) {
   }
 }
 cellular(cellphone);
+console.log("============================================");
+
+var mainCharacters = [
+  "Mario",
+  "DOOM Guy",
+  "Metroid",
+  "Donkey Kong",
+  "Venom",
+  "carnage",
+  "spiderman",
+];
+
+for (var w = 0; w < mainCharacters.length; w++) {
+  console.log(mainCharacters[w]);
+}
+console.log("================function============================");
+function ChooseAcharacter(MainPlayer) {
+  for (var e = 0; e < MainPlayer.length; e++) {
+    console.log(MainPlayer[e]);
+  }
+}
+ChooseAcharacter(mainCharacters);
