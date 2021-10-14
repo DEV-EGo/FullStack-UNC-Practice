@@ -163,3 +163,25 @@ console.log("============================================");
 for (var b = 0; b < 5; b++) {
   console.log(" i am " + b);
 }
+
+console.log("============================================");
+
+var wheel_brands = [
+  "Work Meister",
+  "BBS",
+  "STR",
+  "VOSSEN",
+  "FORGIATO",
+  "OEM",
+  "XXR",
+];
+
+var listof_wheels_to_buy = wheel_brands.length;
+
+for (var h = 0; h < listof_wheels_to_buy; h++) {
+  console.log(wheel_brands[h]);
+
+  if (wheel_brands[h].charAt(0) === "F" || wheel_brands[h].charAt(0) === "o") {
+    alert("starts with a F or an O!");
+  }
+}
