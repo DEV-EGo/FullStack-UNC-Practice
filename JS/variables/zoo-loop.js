@@ -91,3 +91,26 @@ function letsRock(rockbands) {
   }
 }
 letsRock(rockband);
+
+console.log("============================================");
+
+var cellphone = [
+  "Iphone",
+  "SideKick",
+  "Boost",
+  "Nextel",
+  "Samsung",
+  "Galaxys10",
+];
+
+for (var k = 0; k < cellphone.length; k++) {
+  console.log(cellphone[k]);
+}
+
+console.log("================function============================");
+function cellular(PhonesToSell) {
+  for (var l = 0; l < PhonesToSell.length; l++) {
+    console.log(PhonesToSell[l]);
+  }
+}
+cellular(cellphone);
