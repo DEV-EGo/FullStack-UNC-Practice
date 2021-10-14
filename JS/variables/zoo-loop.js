@@ -136,3 +136,30 @@ function ChooseAcharacter(MainPlayer) {
   }
 }
 ChooseAcharacter(mainCharacters);
+console.log("================function========================");
+var HIPHOP = [
+  "A tribe called quest",
+  "Wu-Tang",
+  "Terror Squad",
+  "Jr Mafia",
+  "Mobb Deep",
+  "NWA",
+];
+
+function oldSchoolHipHop(RealRap) {
+  for (var q = 0; q < RealRap.length; q++) {
+    console.log(RealRap[q]);
+  }
+}
+oldSchoolHipHop(HIPHOP);
+
+console.log("============================================");
+
+// var i_am = ["0", "1", "2", "3", "4"];
+// for (var y = 0; y < i_am.length; y++) {
+//   console.log(" i am " + i_am[y]);
+// }
+
+for (var b = 0; b < 5; b++) {
+  console.log(" i am " + b);
+}
