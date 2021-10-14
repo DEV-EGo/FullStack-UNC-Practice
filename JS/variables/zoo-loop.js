@@ -166,24 +166,71 @@ console.log("============================================");
 
 console.log("============================================");
 
-var wheel_brands = [
-  "Work Meister",
-  "BBS",
-  "STR",
-  "VOSSEN",
-  "FORGIATO",
-  "OEM",
-  "XXR",
-];
+// var wheel_brands = [
+//   "Work Meister",
+//   "BBS",
+//   "STR",
+//   "VOSSEN",
+//   "FORGIATO",
+//   "OEM",
+//   "XXR",
+// ];
 
-var listof_wheels_to_buy = wheel_brands.length;
+// var listof_wheels_to_buy = wheel_brands.length;
 
-for (var h = 0; h < listof_wheels_to_buy; h++) {
-  console.log(wheel_brands[h]);
+// for (var h = 0; h < listof_wheels_to_buy; h++) {
+//   console.log(wheel_brands[h]);
 
-  if (wheel_brands[h].charAt(0) === "F" || wheel_brands[h].charAt(0) === "o") {
-    alert("starts with a F or an O!");
-  }
-}
+//   if (wheel_brands[h].charAt(0) === "F" || wheel_brands[h].charAt(0) === "o") {
+//     alert("starts with a F or an O!");
+//   }
+// }
 
 console.log("============================================");
+
+// var marvel = [
+//   "Hulk",
+//   "Spider-Man",
+//   "Captain America",
+//   "Thor",
+//   "Thanos",
+//   "Captain Marvel",
+//   "Black Panther",
+//   "Ant-Man",
+// ];
+
+// var listOf_heros = marvel.length;
+
+// for (var i = 0; i < listOf_heros; i++) {
+//   console.log(listOf_heros[i]);
+
+//   if (marvel[i].charAt(0) === "T" || marvel[i].charAt(0) === "C") {
+//     alert(" T and C was detected in the hero database");
+//   }
+// }
+console.log("============================================");
+
+// var DC_Universe = [
+//   "Batman",
+//   "SuperMan",
+//   "The Flash",
+//   "Wonder Woman",
+//   "AquaMan",
+// ];
+// var DC_Heros = DC_Universe.length;
+
+// for (var x = 0; x < DC_Universe.length; x++) {
+//   console.log(DC_Universe[x]);
+
+//   if (DC_Universe[x].charAt(0) === "B" || DC_Universe[x].charAt(0) === "A") {
+//     alert("B & A were detected in the hero database");
+//   }
+// }
+console.log("============================================");
+
+var whistle_blower = ["Snowden", "Assange", "Puttin", "Vitally"];
+var most_wantedlist = whistle_blower.length;
+
+for (var a = 0; a < most_wantedlist; a++) {
+  console.log(whistle_blower[a]);
+}
