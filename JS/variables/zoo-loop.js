@@ -234,3 +234,19 @@ var most_wantedlist = whistle_blower.length;
 for (var a = 0; a < most_wantedlist; a++) {
   console.log(whistle_blower[a]);
 }
+console.log("============================================");
+
+var kicksclusive = [
+  "Union 4's",
+  "Travis Scott 1's",
+  "South Beach 8's",
+  "Space Jam 11's",
+  "Black Cement 3's",
+  "Hare 7's",
+  "Bred 1's",
+];
+var heatOnly = kicksclusive.length;
+
+for (var i = 0; i < heatOnly; i++) {
+  console.log(kicksclusive[i]);
+}
