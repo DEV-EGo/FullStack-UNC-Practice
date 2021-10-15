@@ -1,0 +1,21 @@
+// creating back end for rock-paper-scissor game
+
+// Creates an array that lists out all of the options (Rock, Paper, or Scissors).
+var computer_choices = ["r", "p", "s"];
+
+// function below runs whenever the user presses a key.
+document.onkeyup = function (event) {
+  // determines what key was pressed
+  var GuessByUser = event.key;
+
+  // Choses randomly from the options array (computers guess)
+
+  var GuessByComputer =
+    computer_choices[Math.floor(Math.random() * computer_choices.length)];
+
+  // alerts key that user pressed
+  alert(" Player one chose " + GuessByUser);
+
+  //   alert the computer guess
+  alert(" Computer chose " + GuessByComputer);
+};
