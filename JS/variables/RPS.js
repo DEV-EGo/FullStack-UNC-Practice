@@ -21,12 +21,21 @@
 // };
 // =================================================================
 
-var youpick = ["y", "u", "i"];
+// var youpick = ["y", "u", "i"];
 
-document.onkeyup = function (event) {
-  var uGuess = event.key;
-  var cGuess = youpick[Math.floor(Math.random() * youpick.length)];
+// document.onkeyup = function (event) {
+//   var uGuess = event.key;
+//   var cGuess = youpick[Math.floor(Math.random() * youpick.length)];
 
-  alert(" you guessed:" + uGuess);
-  alert(" AI chose:" + cGuess);
+//   alert(" you guessed:" + uGuess);
+//   alert(" AI chose:" + cGuess);
+// };
+
+var youguessedit = ["w", "e", "r"];
+
+doucment.onkeyup = function (event) {
+  var youpicked = event.key;
+  var outcome = youguessedit[Math.floor(Math.random() * youguessedit.length)];
+  alert("your choice:" + youpicked);
+  alert("robot chose:" + outcome);
 };
