@@ -31,11 +31,23 @@
 //   alert(" AI chose:" + cGuess);
 // };
 
-var youguessedit = ["w", "e", "r"];
+// var youguessedit = ["w", "e", "r"];
 
-doucment.onkeyup = function (event) {
-  var youpicked = event.key;
-  var outcome = youguessedit[Math.floor(Math.random() * youguessedit.length)];
-  alert("your choice:" + youpicked);
-  alert("robot chose:" + outcome);
+// document.onkeyup = function (event) {
+//   var youpicked = event.key;
+//   var outcome = youguessedit[Math.floor(Math.random() * youguessedit.length)];
+//   alert("your choice:" + youpicked);
+//   alert("robot chose:" + outcome);
+// };
+
+// more practice using different letters and
+var winning_letters = ["Rock", "Paper", "Scissors"];
+
+document.onkeyup = function (event) {
+  var edwinChose = event.key;
+  var player2_chose =
+    winning_letters[Math.floor(Math.random() * winning_letters.length)];
+
+  alert(" Edwin chose: " + edwinChose);
+  alert(" Player 2 chose: " + player2_chose);
 };
