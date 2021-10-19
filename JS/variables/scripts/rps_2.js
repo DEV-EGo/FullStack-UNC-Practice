@@ -23,21 +23,22 @@ document.onkeyup = function (event) {
     choices_computer[Math.floor(Math.random() * choices_computer.length)];
 
   // "else if" will determine the outcome of the game (win/loss/tie)
-  if((user_Guess === "r") && || (user_Guess === "p") ||(user_Guess === "s")){
-
-    if((user_Guess === "r"&&computer_Guess === "s")||
-    (user_Guess === "s" && computer_Guess === "p") ||
-    (user_Guess === "p" && computer_Guess === "r")){
-        wins++;
-    }else if(user_Guess === computer_Guess){
-        ties++;
-    }else{
-        losses++;
+  if (user_Guess === "r" || user_Guess === "p" || user_Guess === "s") {
+    if (
+      (user_Guess === "r" && computer_Guess === "s") ||
+      (user_Guess === "s" && computer_Guess === "p") ||
+      (user_Guess === "p" && computer_Guess === "r")
+    ) {
+      wins++;
+    } else if (user_Guess === computer_Guess) {
+      ties++;
+    } else {
+      losses++;
     }
 
     // hide the direction
     directionsText.textContent = "";
-    
+
     // Display the user and computer guesses, wins/losses/ties
     userChoiceText.textContent = "you chose:" + user_Guess;
     computerChoiceText.textContent = "the computer chose:" + computer_Guess;
