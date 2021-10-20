@@ -24,5 +24,11 @@ for (var j = 0; j < studentsRow2.length; j++) {
 console.log("================================================");
 
 // Using the entireClass array, how do we access the second student in row 3?
+console.log("second student in row 3.");
+console.log(entireClass[2][1]);
+
+console.log("================================================");
 
 // Using the entireClass array, how do we access the third student in row 2?
+console.log("third student in row 2.");
+console.log(entireClass[1][2]);
