@@ -32,3 +32,14 @@ console.log("================================================");
 // Using the entireClass array, how do we access the third student in row 2?
 console.log("third student in row 2.");
 console.log(entireClass[1][2]);
+
+console.log("================================================");
+
+var videoGameSystem = ["xbox", "playstation", "switch"];
+var Game = ["Halo", "call of duty", "metroid"];
+
+var stockOfGames = [videoGameSystem, Game];
+
+for (var p = 0; p < videoGameSystem.length; p++) {
+  console.log(videoGameSystem[p]);
+}
