@@ -10,8 +10,18 @@ var studentsRow3 = ["Aisha", "Stephen", "John"];
 var entireClass = [studentsRow1, studentsRow2, studentsRow3];
 
 // How do we print out every single student in Row 1?
+for (var i = 0; i < studentsRow1.length; i++) {
+  console.log(studentsRow1[i]);
+}
 
+console.log("================================================");
 // How do we print out every student in Row 2 whose first name begins with J?
+for (var j = 0; j < studentsRow2.length; j++) {
+  if (studentsRow2[j].charAt(0) === "J") {
+    console.log("Start with a J " + studentsRow2[j]);
+  }
+}
+console.log("================================================");
 
 // Using the entireClass array, how do we access the second student in row 3?
 
