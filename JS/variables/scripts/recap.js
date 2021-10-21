@@ -43,3 +43,18 @@ var stockOfGames = [videoGameSystem, Game];
 for (var p = 0; p < videoGameSystem.length; p++) {
   console.log(videoGameSystem[p]);
 }
+
+console.log("================================================");
+
+var netflix = [
+  "YOU",
+  "Narcos",
+  "Sons of Anarchy",
+  "Orange Is the New The Black",
+];
+
+var providers = ["HBO Max", "Neflix", "HULU"];
+
+for (var r = 0; r < netflix.length; r++) {
+  console.log(netflix[r]);
+}
