@@ -59,3 +59,22 @@ function harlemboys(hood) {
 }
 
 harlemboys(asapmobb);
+
+console.log("================================================");
+
+var lunchtime = [
+  "chick-fil-a",
+  "cookout",
+  "vulgers",
+  "peruvian food",
+  "chinese",
+  "philly cheese",
+  "starbucks",
+];
+
+function letsEast(cheapfood) {
+  for (var f = 0; 0 < cheapfood.length; f++) {
+    console.log(cheapfood[f]);
+  }
+}
+letsEast(lunchtime);
