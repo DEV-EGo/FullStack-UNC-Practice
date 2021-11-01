@@ -26,3 +26,36 @@ var solutions = ["therapy", "prayer", "hobbies"];
 for (var w = 0; w < problems.length; w++) {
   console.log(problems[w]);
 }
+
+console.log("================================================");
+
+var howIfeel = [
+  "mad",
+  "sad",
+  "okay",
+  "excited",
+  "anxious",
+  "depressed",
+  "mehhhh",
+];
+
+function insideTheConsole(arr) {
+  for (var i = 0; i < arr.length; i++) {
+    console.log(arr[i]);
+  }
+  console.log("==========================");
+}
+
+insideTheConsole(howIfeel);
+
+console.log("================================================");
+
+var asapmobb = ["Rocky", "Nast", "Yams", "twelvy", "bardi", "carti", "ferg"];
+
+function harlemboys(hood) {
+  for (var s = 0; s < hood.length; s++) {
+    console.log(hood[s]);
+  }
+}
+
+harlemboys(asapmobb);
