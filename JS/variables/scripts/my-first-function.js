@@ -50,6 +50,25 @@ console.log("-------------------");
 
 // Call the vowelChecker function here.
 
+function vowelChecker(x) {
+  // vowelChecker will grab the first letter (character)...
+  var firstChar = x.toLowerCase().charAt(0);
+
+  // Then check if that first letter is a vowel.
+  if (
+    firstChar === "a" ||
+    firstChar === "e" ||
+    firstChar === "i" ||
+    firstChar === "o" ||
+    firstChar === "u"
+  ) {
+    // If so... it will log that.
+    console.log("OMG. The first letter is a vowel!");
+  } else {
+    // If not... it will log that.
+    console.log("First letter is NOT a vowel. *sadface*");
+  }
+}
 console.log("-------------------");
 
 // BONUS
