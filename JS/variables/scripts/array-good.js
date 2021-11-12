@@ -9,3 +9,13 @@ for (var i = 0; i < nums.length; i++) {
     console.log("number is not greater than 2");
   }
 }
+
+var rocafella = [1992, 1997, 2001, 2002];
+
+for (var j = 0; j < rocafella.length; j++) {
+  if (rocafella[j] > 2) {
+    console.log("rocafella was up more than twice");
+  } else {
+    console.log("rocafella aint up");
+  }
+}
