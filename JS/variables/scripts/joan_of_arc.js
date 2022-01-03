@@ -21,3 +21,5 @@ var Input = "Real Name";
 // how to use input to retrieve data
 var index = joanOfArcInfo.indexOf(Input);
 var valuesIndex = joanOfArcValues[index];
+
+// var ResidentEvil = ["Racoon City", "code veronica",""]
