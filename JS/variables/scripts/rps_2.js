@@ -14,9 +14,9 @@ var Ties = 0;
 
 // ===============================
 
-var textDirections = document.getElementById("text-directions");
-var ChoicetextComputer = document.getElementById("choicetext-computer");
-var TextUserChoice = document.getElementById("text-user-choice");
+var textDirections = document.getElementById("directions-text");
+var ChoicetextComputer = document.getElementById("userchoice-text");
+var TextUserChoice = document.getElementById("computerchoice-text");
 var textWins = document.getElementById("wins-text");
 var textlosses = document.getElementById("losses-text");
 var textTies = document.getElementById("ties-text");
