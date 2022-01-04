@@ -3,27 +3,33 @@
 
 console.log("==========================");
 
-var hypercars = ["Supra", "Viper", "Audi R8", "Ferrari"];
-var JDMcars = ["GT86", "Skyline", "RX7", "STI", "Honda Type R", "370z"];
-var Musclecars = ["Charger", "Challenger", "Road Runner", "Camaro", "Mustang"];
+var hypercars1 = ["Supra", "Viper", "Audi R8", "Ferrari"];
+var JDMcars2 = ["GT86", "Skyline", "RX7", "STI", "Honda Type R", "370z"];
+var Musclecars3 = ["Charger", "Challenger", "Road Runner", "Camaro", "Mustang"];
 
-var listOfVehicles = hypercars,
-  JDMcars,
-  Musclecars;
+var listOfVehicles = hypercars1,
+  JDMcars2,
+  Musclecars3;
 
 // print out jdmcars
 
-// for (var c = 0; c < hypercars.length; c++) {
-//   console.log(hypercars[c]);
-// }
+for (var c = 0; c < hypercars1.length; c++) {
+  console.log(hypercars1[c]);
+}
+console.log("==========================");
 
 // print out every car in row 2whose first name begins with S?
-
-for (var s = 0; s < JDMcars.length; s++) {
-  if (JDMcars[s].charAt[0] === "S") {
-    console.log("Vehicle starts with S " + JDMcars[s]);
+for (var k = 0; k < Musclecars3.length; k++) {
+  if (Musclecars3[k].charAt(0) === "C") {
+    console.log("start with C " + Musclecars3[k]);
   }
 }
+
+console.log("==========================");
+// Using the listofCars array, how do we access the second car in row 3?
+
+console.log("3rd car in the list of car array");
+console.log(listOfVehicles[0][1]);
 
 console.log("==========================");
 
