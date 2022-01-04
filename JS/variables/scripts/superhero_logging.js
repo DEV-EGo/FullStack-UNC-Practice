@@ -88,3 +88,14 @@ console.log("---------");
 for (var p = 0; p < capital.length; p++) {
   console.log(capital[p]);
 }
+console.log("============More practice==================");
+
+// VARIABLES
+// =======================================================================================
+var raceCars = ["Supra", "Skyline", "GT86", "Challenger", "Sti"];
+
+// FUNCTIONS
+// ========================================================================================
+
+// Here we create a "Function" that allows us to "call" (run) the loop for any array we wish.
+// We pass in an array as an "argument".
