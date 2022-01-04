@@ -1,6 +1,32 @@
 // Instructions:
 // Using the given arrays, complete the questions below!
 
+console.log("==========================");
+
+var hypercars = ["Supra", "Viper", "Audi R8", "Ferrari"];
+var JDMcars = ["GT86", "Skyline", "RX7", "STI", "Honda Type R", "370z"];
+var Musclecars = ["Charger", "Challenger", "Road Runner", "Camaro", "Mustang"];
+
+var listOfVehicles = hypercars,
+  JDMcars,
+  Musclecars;
+
+// print out jdmcars
+
+// for (var c = 0; c < hypercars.length; c++) {
+//   console.log(hypercars[c]);
+// }
+
+// print out every car in row 2whose first name begins with S?
+
+for (var s = 0; s < JDMcars.length; s++) {
+  if (JDMcars[s].charAt[0] === "S") {
+    console.log("Vehicle starts with S " + JDMcars[s]);
+  }
+}
+
+console.log("==========================");
+
 // Rows of Students
 var studentsRow1 = ["Rachelle", "Jacob", "Jerome", "Greg", "Matt", "Walt"];
 var studentsRow2 = ["Jeremiah", "Luis", "Nathan", "Analben"];
@@ -41,7 +67,9 @@ var Game = ["Halo", "call of duty", "metroid"];
 var stockOfGames = [videoGameSystem, Game];
 
 for (var p = 0; p < videoGameSystem.length; p++) {
-  console.log(videoGameSystem[p]);
+  if (videoGameSystem[p].charAt(0) === "s") {
+    console.log("system with the leter s " + videoGameSystem[p]);
+  }
 }
 
 console.log("================================================");
