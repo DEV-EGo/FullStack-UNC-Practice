@@ -74,3 +74,17 @@ for (var t = 0; t < theaters.length; t++) {
   console.log(theaters[t]);
 }
 console.log("============More practice==================");
+
+var cities = ["charlotte", "NYC", "LA", "Denver"];
+var capital = ["Washington", "Raleigh", "Buffalo"];
+
+// for loop cities
+for (var y = 0; y < cities.length; y++) {
+  console.log(cities[y]);
+}
+console.log("---------");
+
+// for loop capital
+for (var p = 0; p < capital.length; p++) {
+  console.log(capital[p]);
+}
