@@ -100,6 +100,8 @@ var sneakers = ["timberlands", "Lebrons", "Jordans", "Nike SB"];
 
 var countries = ["Cameroon", "paris", "new york", "argentina"];
 
+var designer = ["GUCCI", "LV", "Prada", "Chanel"];
+
 // FUNCTIONS
 // ========================================================================================
 
@@ -131,6 +133,16 @@ function worlwide(nations) {
     console.log(nations[n]);
   }
 }
+console.log("================================");
+
+//
+function italian(clothes) {
+  for (var f = 0; f < clothes.length; f++) {
+    console.log(clothes[f]);
+  }
+}
+console.log("================================");
+
 // FUNCTION CALLS (Execution)
 // =======================================================================================
 
@@ -142,3 +154,5 @@ showmelist(clothes);
 showmelist(sneakers);
 
 worlwide(countries);
+
+italian(designer);
