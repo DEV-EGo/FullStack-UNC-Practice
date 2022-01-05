@@ -98,6 +98,8 @@ var muscleCars = ["Demon", "Hellcat", "Shelby"];
 var clothes = ["supreme", "bape", "north face", "vans"];
 var sneakers = ["timberlands", "Lebrons", "Jordans", "Nike SB"];
 
+var countries = ["Cameroon", "paris", "new york", "argentina"];
+
 // FUNCTIONS
 // ========================================================================================
 
@@ -123,6 +125,12 @@ function showmelist(manifest) {
   }
   console.log("================================");
 }
+//
+function worlwide(nations) {
+  for (var n = 0; n < nations.length; n++) {
+    console.log(nations[n]);
+  }
+}
 // FUNCTION CALLS (Execution)
 // =======================================================================================
 
@@ -132,3 +140,5 @@ consoleInside(muscleCars);
 
 showmelist(clothes);
 showmelist(sneakers);
+
+worlwide(countries);
