@@ -92,10 +92,43 @@ console.log("============More practice==================");
 
 // VARIABLES
 // =======================================================================================
-var raceCars = ["Supra", "Skyline", "GT86", "Challenger", "Sti"];
+var raceCars = ["Supra", "Skyline", "GT86", "Challenger", "Sti", "Truck"];
+var muscleCars = ["Demon", "Hellcat", "Shelby"];
+
+var clothes = ["supreme", "bape", "north face", "vans"];
+var sneakers = ["timberlands", "Lebrons", "Jordans", "Nike SB"];
 
 // FUNCTIONS
 // ========================================================================================
 
 // Here we create a "Function" that allows us to "call" (run) the loop for any array we wish.
 // We pass in an array as an "argument".
+
+function consoleInside(arr) {
+  // We then loop through the selected array.
+
+  for (var i = 0; i < arr.length; i++) {
+    // Each time we print the value inside the array.
+
+    console.log(arr[i]);
+  }
+  console.log("================================");
+}
+
+//
+console.log("================================");
+function showmelist(manifest) {
+  for (var u = 0; u < manifest.length; u++) {
+    console.log(manifest[u]);
+  }
+  console.log("================================");
+}
+// FUNCTION CALLS (Execution)
+// =======================================================================================
+
+// Here we call the function to run our for-loop code on each of the following arrays.
+consoleInside(raceCars);
+consoleInside(muscleCars);
+
+showmelist(clothes);
+showmelist(sneakers);
