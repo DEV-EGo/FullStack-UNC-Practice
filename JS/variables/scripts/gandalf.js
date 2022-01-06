@@ -29,3 +29,20 @@ alert(" i have more than " + gandalf.aliases.length + " aliases ");
 
 // non-existant properties returned modified
 alert("my designation is " + gandalf[" designation"]);
+
+// ===============================
+var gt86 = {
+  Brand: "Scion",
+  Year: 2016,
+  Model: "F-rs",
+  coupe: true,
+  buildType: ["Drift", "Street", "Drag", "Stance"],
+};
+
+alert(" i drive a " + gt86["Brand"]);
+
+if (gt86.buildType) {
+  var yearcar = "Year";
+  var model = gt86[buildType];
+  alert(" this is a " + model + "Street");
+}
