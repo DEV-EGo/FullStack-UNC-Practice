@@ -41,8 +41,8 @@ var gt86 = {
 
 alert(" i drive a " + gt86["Brand"]);
 
-if (gt86.buildType) {
+if (gt86.coupe) {
   var yearcar = "Year";
-  var model = gt86[buildType];
-  alert(" this is a " + model + "Street");
+  var Model = gt86[yearcar];
+  alert(" this is a " + Model + "Street");
 }
