@@ -39,14 +39,14 @@ var gt86 = {
   buildType: ["Drift car", "Street Car", "Drag Car", "Stance Car"],
 };
 
-alert(" i drive a " + gt86["Brand"]);
+alert(" i drive a " + gt86 + " Brand ");
 
 if (gt86.coupe) {
   var yearcar = "Year";
   var Model = gt86[yearcar];
-  alert(" this is a " + Model + "Street");
+  alert(" this is a " + Model + " TRD ");
 }
 
-alert(" i have a " + gt86.length + " coupe");
-
-alert("" + gt86 + "");
+alert(
+  " there are " + gt86.buildType.length + " types of builds for this model "
+);
