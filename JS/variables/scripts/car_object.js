@@ -9,4 +9,10 @@ var DriftMissile = {
     alert(" old mileage: " + this.miles);
     this.miles = this.miles + 8;
   },
+
+  DriveAround: function () {
+      alert(" old mileage: " + this.miles);
+      alert(" car needs tune up " + )
+  }
+
 };
