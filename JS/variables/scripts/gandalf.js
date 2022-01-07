@@ -36,7 +36,7 @@ var gt86 = {
   Year: 2016,
   Model: "F-rs",
   coupe: true,
-  buildType: ["Drift", "Street", "Drag", "Stance"],
+  buildType: ["Drift car", "Street Car", "Drag Car", "Stance Car"],
 };
 
 alert(" i drive a " + gt86["Brand"]);
@@ -46,3 +46,7 @@ if (gt86.coupe) {
   var Model = gt86[yearcar];
   alert(" this is a " + Model + "Street");
 }
+
+alert(" i have a " + gt86.length + " coupe");
+
+alert("" + gt86 + "");
