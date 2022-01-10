@@ -11,8 +11,17 @@ var DriftMissile = {
   },
 
   DriveAround: function () {
-      alert(" old mileage: " + this.miles);
-      alert(" car needs tune up " + )
-  }
+    alert(" old mileage: " + this.miles);
+    alert(" car needs tune up ");
+    this.isWorking;
+  },
 
+  TuneUpRequired: function () {
+    alert(" You need a tune up");
+    this.isWorking();
+  },
+
+  Honk: function () {
+    alert(" H O N K !");
+  },
 };
