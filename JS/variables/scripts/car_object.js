@@ -53,7 +53,7 @@ var launch = {
   Distance_InSpace: 100000,
   LaunchSucess: true,
 
-  ReadyForLaunch: function () {
+  Orbital_Distance: function () {
     alert(this.Distance_InSpace + " away from the earth");
 
     this.Distance_InSpace = this.Distance_InSpace + 20;
