@@ -45,3 +45,19 @@ DriftMissile.DriveAround();
 DriftMissile.TuneUpRequired();
 
 console.log("==========================");
+
+var launch = {
+  Rocket: " Rocket Ship",
+  Space_Company: " Space X",
+  Orbit: " Milky Way",
+  Distance_InSpace: 100000,
+  LaunchSucess: true,
+
+  ReadyForLaunch: function () {
+    alert(this.Distance_InSpace + " away from the earth");
+
+    this.Distance_InSpace = this.Distance_InSpace + 20;
+
+    alert(this.Distance_InSpace + " away from orbit, after launch");
+  },
+};
