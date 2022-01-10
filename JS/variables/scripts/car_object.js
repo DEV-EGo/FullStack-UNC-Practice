@@ -18,7 +18,7 @@ var DriftMissile = {
 
   TuneUpRequired: function () {
     alert(" You need a tune up");
-    this.isWorking();
+    this.isWorking;
   },
 
   Honk: function () {
@@ -43,3 +43,5 @@ DriftMissile.Daily_drive();
 DriftMissile.DriveAround();
 // How would we run the getTuneUp method?
 DriftMissile.TuneUpRequired();
+
+console.log("==========================");
