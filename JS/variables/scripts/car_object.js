@@ -30,14 +30,16 @@ var DriftMissile = {
 
 // The car's make?
 console.log(DriftMissile.make);
+
 // The car's model?
 console.log(DriftMissile.model);
+
 // The car's mileage?
 console.log(DriftMissile.miles);
-// How would we run the car's driveToWork method?
-console.log(DriftMissile.Daily_drive);
-// How would we run the car's driveAroundWorld method?
-console.log(DriftMissile.DriveAround);
 
+// How would we run the car's driveToWork method?
+DriftMissile.Daily_drive();
+// How would we run the car's driveAroundWorld method?
+DriftMissile.DriveAround();
 // How would we run the getTuneUp method?
-console.log(DriftMissile.TuneUpRequired);
+DriftMissile.TuneUpRequired();
