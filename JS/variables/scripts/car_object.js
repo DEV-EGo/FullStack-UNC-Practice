@@ -92,3 +92,26 @@ function CurrentStatus() {
 
 // MAIN PROCESS
 // ==============================================================================
+
+document.onkeyup = function (event) {
+  // capturing key pressed, also converts it into lowercase
+  var letter = event.key.toLowerCase();
+
+  //  if the letter is h, calling function
+  if (letter === "h") {
+    launch.BlastOff;
+    CurrentStatus();
+  }
+
+  //   if the letter is d, calling function
+  if (letter === "d") {
+    launch.getInSpace();
+    CurrentStatus();
+  }
+
+  //if the letter is t, calling function
+  if (letter === "t") {
+    launch.Orbital_Distance;
+    CurrentStatus();
+  }
+};
