@@ -59,5 +59,36 @@ var launch = {
     this.Distance_InSpace = this.Distance_InSpace + 20;
 
     alert(this.Distance_InSpace + " away from orbit, after launch");
+
+    alert(" we in space");
+
+    this.LaunchSucess = false;
+  },
+
+  getInSpace: function () {
+    alert("Ready for launch");
+    this.LaunchSucess = true;
+  },
+
+  BlastOff: function () {
+    alert(" take off");
   },
 };
+
+// FUNCTIONS
+// ==============================================================================
+
+// Logs all of our car's current stats to the console.
+function CurrentStatus() {
+  console.log(" Rocket: " + launch.Rocket);
+  console.log(" Space: " + launch.Space_Company);
+  console.log(" Orbit: " + launch.Orbit);
+  console.log(" Orbit " + launch.Orbit);
+  console.log(" Distance in space " + launch.Distance_InSpace);
+  console.log(
+    "================================================================"
+  );
+}
+
+// MAIN PROCESS
+// ==============================================================================
