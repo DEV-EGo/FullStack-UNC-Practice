@@ -88,7 +88,7 @@ var RockNRoll = {
   LetsRock: true,
 
   concertHour: function () {
-    alert(" concert starts at " + Show_Time);
+    alert(" concert starts at " + this.Show_Time);
 
     this.Show_Time = Show_Time + 2;
 
@@ -130,6 +130,7 @@ function CurrentStatus() {
 // ==============================================================================
 document.onkeyup = function (event) {
   var keythisletter = event.key.toLowerCase();
+
   if (keythisletter === "b") {
     RockNRoll.concertHour();
     re_set_stats();
