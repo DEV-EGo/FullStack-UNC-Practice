@@ -46,6 +46,9 @@ DriftMissile.TuneUpRequired();
 
 console.log("==========================");
 
+// FUNCTIONS
+// ==============================================================================
+
 var launch = {
   Rocket: " Rocket Ship",
   Space_Company: " Space X",
@@ -56,7 +59,7 @@ var launch = {
   Orbital_Distance: function () {
     alert(this.Distance_InSpace + " away from the earth");
 
-    this.Distance_InSpace = this.Distance_InSpace + 20;
+    this.Distance_InSpace = this.Distance_InSpace + 24000;
 
     alert(this.Distance_InSpace + " away from orbit, after launch");
 
@@ -75,16 +78,23 @@ var launch = {
   },
 };
 
-// FUNCTIONS
-// ==============================================================================
+//
+
+var RockNRoll = {
+  Band: " Guns N Roses",
+  Guitarist: " Slash",
+  Tour: " North America",
+  Show_Time: 4,
+  LetsRock: true,
+};
 
 // Logs all of our car's current stats to the console.
 function CurrentStatus() {
   console.log(" Rocket: " + launch.Rocket);
   console.log(" Space: " + launch.Space_Company);
   console.log(" Orbit: " + launch.Orbit);
-  console.log(" Orbit " + launch.Orbit);
   console.log(" Distance in space " + launch.Distance_InSpace);
+  console.log(" Launch is a success!" + Launch.Success);
   console.log(
     "================================================================"
   );
