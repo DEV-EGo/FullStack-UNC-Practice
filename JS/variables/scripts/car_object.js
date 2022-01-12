@@ -93,6 +93,7 @@ var RockNRoll = {
     this.Show_Time = Show_Time + 2;
 
     alert(" the concert was " + Show_Time);
+    this.letsrock = true;
   },
 
   rockstar: function () {
@@ -128,26 +129,43 @@ function CurrentStatus() {
 
 // MAIN PROCESS
 // ==============================================================================
-
 document.onkeyup = function (event) {
-  // capturing key pressed, also converts it into lowercase
-  var letter = event.key.toLowerCase();
-
-  //  if the letter is h, calling function
-  if (letter === "h") {
-    launch.BlastOff;
+  var keythisletter = event.key.toLowerCase();
+  if (keythisletter === "b") {
+    RockNRoll.concertHour();
     CurrentStatus();
   }
 
-  //   if the letter is d, calling function
-  if (letter === "d") {
-    launch.getInSpace();
+  if (keythisletter === "n") {
+    RockNRoll.rockstar();
     CurrentStatus();
   }
-
-  //if the letter is t, calling function
-  if (letter === "t") {
-    launch.Orbital_Distance;
+  if (keythisletter === "m") {
+    RockNRoll.venue();
     CurrentStatus();
   }
 };
+
+//
+// document.onkeyup = function (event) {
+// capturing key pressed, also converts it into lowercase
+//   var letter = event.key.toLowerCase();
+
+//  if the letter is h, calling function
+//   if (letter === "h") {
+//     launch.BlastOff;
+//     CurrentStatus();
+//   }
+
+//   if the letter is d, calling function
+//   if (letter === "d") {
+//     launch.getInSpace();
+//     CurrentStatus();
+//   }
+
+//if the letter is t, calling function
+//   if (letter === "t") {
+//     launch.Orbital_Distance;
+//     CurrentStatus();
+//   }
+// };
