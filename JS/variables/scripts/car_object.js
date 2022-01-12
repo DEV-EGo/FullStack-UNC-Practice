@@ -81,9 +81,9 @@ var launch = {
 //
 
 var RockNRoll = {
-  Band: " Guns N Roses",
-  Guitarist: " Slash",
-  Tour: " North America",
+  Band: "Guns N Roses",
+  Guitarist: "Slash",
+  Tour: "North America",
   Show_Time: 4,
   LetsRock: true,
 
@@ -93,7 +93,6 @@ var RockNRoll = {
     this.Show_Time = Show_Time + 2;
 
     alert(" the concert was " + Show_Time);
-    this.letsrock = true;
   },
 
   rockstar: function () {
@@ -133,16 +132,16 @@ document.onkeyup = function (event) {
   var keythisletter = event.key.toLowerCase();
   if (keythisletter === "b") {
     RockNRoll.concertHour();
-    CurrentStatus();
+    re_set_stats();
   }
 
   if (keythisletter === "n") {
     RockNRoll.rockstar();
-    CurrentStatus();
+    re_set_stats();
   }
   if (keythisletter === "m") {
     RockNRoll.venue();
-    CurrentStatus();
+    re_set_stats();
   }
 };
 
