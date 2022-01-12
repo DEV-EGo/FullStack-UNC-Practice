@@ -86,9 +86,35 @@ var RockNRoll = {
   Tour: " North America",
   Show_Time: 4,
   LetsRock: true,
+
+  concertHour: function () {
+    alert(" concert starts at " + Show_Time);
+
+    this.Show_Time = Show_Time + 2;
+
+    alert(" the concert was " + Show_Time);
+  },
+
+  rockstar: function () {
+    alert(" presenting the best guitarist in the world" + Guitarist);
+    this.LetsRock = true;
+  },
+
+  venue: function () {
+    alert(" This is the " + Tour);
+    this.LetsRock = true;
+  },
 };
 
 // Logs all of our car's current stats to the console.
+function re_set_stats() {
+  console.log("Band" + RockNRoll.Band);
+  console.log("Guitarist" + RockNRoll.Guitarist);
+  console.log("Tour" + RockNRoll.Tour);
+  console.log("Show Time" + RockNRoll.Show_Time);
+  console.log(" You ready to rock ?! " + RockNRoll.LetsRock);
+}
+
 function CurrentStatus() {
   console.log(" Rocket: " + launch.Rocket);
   console.log(" Space: " + launch.Space_Company);
