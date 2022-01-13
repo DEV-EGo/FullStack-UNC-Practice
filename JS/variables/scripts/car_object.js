@@ -90,9 +90,10 @@ var RockNRoll = {
   concertHour: function () {
     alert(" concert starts at " + this.Show_Time);
 
-    this.Show_Time = Show_Time + 2;
+    this.Show_Time = this.Show_Time + 2;
 
     alert(" the concert was " + Show_Time);
+    this.LetsRock = false;
   },
 
   rockstar: function () {
@@ -109,8 +110,8 @@ var RockNRoll = {
 // Logs all of our car's current stats to the console.
 function re_set_stats() {
   console.log("Band" + RockNRoll.Band);
-  console.log("Guitarist" + RockNRoll.Guitarist);
-  console.log("Tour" + RockNRoll.Tour);
+  console.log("Slash" + RockNRoll.Guitarist);
+  console.log("North America" + RockNRoll.Tour);
   console.log("Show Time" + RockNRoll.Show_Time);
   console.log(" You ready to rock ?! " + RockNRoll.LetsRock);
 }
