@@ -64,3 +64,28 @@ form ion-icon {
   grid-gap: 25px;
   grid-template: auto / repeat(auto-fit, minmax(300px, 1fr));
 }
+.item {
+  width: 100%;
+  background-color: rgb(37, 37, 37);
+  padding: 15px;
+  overflow: hidden;
+}
+.item img {
+  width: 100%;
+  height: 300px;
+  border-radius: 4px;
+}
+.item .flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.item .title {
+  color: whitesmoke;
+  margin: 20px 10px 0 0;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+.view-button {
+  text-decoration: none;
+}
