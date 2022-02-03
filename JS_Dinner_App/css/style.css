@@ -43,7 +43,7 @@ form {
   border-radius: 4px;
 }
 form input {
-  width: 100%;
+  width: 90%;
   background-color: transparent;
   padding: 10px;
   border: none;
@@ -57,7 +57,7 @@ form ion-icon {
   margin: -9px;
   color: rgb(75, 75, 75);
 }
-.search-result {
+.search-results {
   margin-top: 50px;
   width: 100%;
   display: grid;
