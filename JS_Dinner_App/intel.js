@@ -12,7 +12,26 @@ searchForm.addEventListener("submit", (e) => {
   fetchAPI();
 });
 async function fetchAPI() {
-  const baseURL = `https://api.edamam.com/search?q=pizza&app_id=${APP_ID}&app_key=${APP_Key}`;
+  const baseURL = `https://api.edamam.com/search?q=pizza&app_id=${APP_ID}&app_key=${APP_Key}&to=20`;
   const response = await fetch(baseURL);
-  console.log(response);
+  const data = await response.json();
+  generateHTML(data.hits);
+  console.log(data);
+}
+function generateHTML(results) {
+  let generatedHTML = "";
+
+  results.map((result) => {
+    generatedHTML += `
+    <div class="items">
+            <img src="./css/PANCAKE.jpeg" alt="" />
+
+            <div class="flex-container">
+              <h1 class="title">This is a recipe</h1>
+              <a class="view-button" href="#"> View Recipe</a>
+            </div>
+    `;
+  });
+
+  searchResultDiv.innerHTML = generateHTML;
 }
