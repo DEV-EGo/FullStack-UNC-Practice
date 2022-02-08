@@ -11,6 +11,7 @@ img {
   object-fit: cover;
 }
 html {
+  background-image: url(../css/cheftable.jpeg);
   font-family: "Nunito";
   font-size: 12px;
   font-weight: 600;
@@ -22,7 +23,6 @@ section {
   align-items: center;
   justify-content: center;
   padding: 100px 0;
-  background-color: rgb(26, 26, 27);
 }
 .container {
   width: 90%;

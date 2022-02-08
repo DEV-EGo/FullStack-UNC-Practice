@@ -19,8 +19,8 @@ async function fetchAPI() {
   console.log(data);
 }
 function generateHTML(results) {
-  // container.classList.remove(`initial`);
   let generatedHTML = "";
+  // container.classList.remove(`initial`);
 
   results.map((result) => {
     generatedHTML += `
