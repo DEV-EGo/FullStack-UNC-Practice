@@ -12,7 +12,7 @@ searchForm.addEventListener("submit", (e) => {
   fetchAPI();
 });
 async function fetchAPI() {
-  const baseURL = `https://api.edamam.com/search?q=pizza&app_id=${APP_ID}&app_key=${APP_Key}&to=20`;
+  const baseURL = `https://api.edamam.com/search?q=${searchQuery}&app_id=${APP_ID}&app_key=${APP_Key}&to=20`;
   const response = await fetch(baseURL);
   const data = await response.json();
   generateHTML(data.hits);
@@ -32,9 +32,15 @@ function generateHTML(results) {
                 result.recipe.url
               }" target="_blank"> View Recipe</a>
             </div>
-            <p class="item-data">Calories:${result.recipe.calories.toFixed(
+            <p class="item-data">Calories: ${result.recipe.calories.toFixed(
               2
             )}</p>
+            <p class="item-data">Diet label: ${
+              result.recipe.dietLabels.length > 0
+                ? result.recipe.dietLabels
+                : "No Data Found"
+            }</p>
+            <p class="item-data">Health label: ${result.recipe.healthLabels}</p>
       </div>
     `;
   });
