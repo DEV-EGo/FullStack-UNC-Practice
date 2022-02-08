@@ -24,14 +24,16 @@ function generateHTML(results) {
   results.map((result) => {
     generatedHTML += `
     <div class="items">
-            <img src="./css/PANCAKE.jpeg" alt="" />
+            <img src="${result.recipe.image}" alt="" />
 
             <div class="flex-container">
-              <h1 class="title">This is a recipe</h1>
+              <h1 class="title">${result.recipe.label}</h1>
               <a class="view-button" href="#"> View Recipe</a>
             </div>
+            <p class="item-data">Calories:${result.recipe.calories}</p>
+      </div>
     `;
   });
 
-  searchResultDiv.innerHTML = generateHTML;
+  searchResultDiv.innerHTML = generatedHTML;
 }
