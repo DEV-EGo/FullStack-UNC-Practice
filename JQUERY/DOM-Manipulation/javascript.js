@@ -10,3 +10,6 @@ var newDiv = document.createElement("div");
 newDiv.textContent = " this is a new div";
 //using the "appendchild" method to combine both of the divs on the page
 targetID.appendChild(newDiv);
+
+// applying css to newDiv
+newDiv.setAttribute("class", "fancy");
