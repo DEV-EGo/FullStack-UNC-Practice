@@ -38,12 +38,12 @@ var gamelist = [
   "Metroid",
   "Spider-Man",
 ];
-var DisplayingListOfGame = document.getelementById("game-list");
 
-for (var i = 0; i < gamelist.length; i++) {
-  var showGames = document.createElement("p");
+var gDiv = document.createElement("game");
 
-  showGames.textContent = gamelist[i];
-
-  DisplayingListOfGame.appendChild(showGames);
-}
+gamelist.forEach(function (VG) {
+  var vList = document.createElement("p");
+  vList.textContent = VG;
+  gDiv.appendChild(vList);
+});
+// for (var i = 0; i < gamelist.length; i++) {}
