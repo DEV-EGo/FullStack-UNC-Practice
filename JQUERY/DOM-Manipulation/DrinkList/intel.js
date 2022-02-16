@@ -46,4 +46,9 @@ gamelist.forEach(function (VG) {
   vList.textContent = VG;
   gDiv.appendChild(vList);
 });
-// for (var i = 0; i < gamelist.length; i++) {}
+
+$(document).ready(function () {
+  $("#click-this").on("click", function () {
+    alert("i been hit");
+  });
+});
