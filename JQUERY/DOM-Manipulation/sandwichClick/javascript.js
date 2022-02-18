@@ -8,14 +8,25 @@
 //   });
 // });
 
-document.getElementById("demo").addEventListener("click", myFunction);
+// document.getElementById("demo").addEventListener("click", myFunction);
 
+// function myFunction() {
+//   document.getElementById("demo").innerHTML = "YOU CLICKED ME!";
+// }
+
+// document.getElementById("click-me").addEventListener("click", thisFunction);
+
+// function thisFunction() {
+//   document.getElementById("click-me").innerHTML = "this was clicked";
+// }
 function myFunction() {
-  document.getElementById("demo").innerHTML = "YOU CLICKED ME!";
+  document.getElementById("demo").innerHTML = "Hello World";
 }
 
-document.getElementById("click-me").addEventListener("click", thisFunction);
+function thisButton() {
+  document.getElementById("hit_this").innerHTML = "wassup";
+}
 
-function thisFunction() {
-  document.getElementById("click-me").innerHTML = "this was clicked";
+function pressthis() {
+  document.getElementById("pressthis").innerHTML = "you pressed me";
 }
