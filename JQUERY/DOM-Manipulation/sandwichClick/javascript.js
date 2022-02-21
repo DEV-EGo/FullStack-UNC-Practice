@@ -30,3 +30,7 @@ function thisButton() {
 function pressthis() {
   document.getElementById("pressthis").innerHTML = "you pressed me";
 }
+
+function hitthis() {
+  document.getElementById("hit_t").innerHTML = "hit this";
+}
