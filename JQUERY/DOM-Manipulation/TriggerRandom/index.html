@@ -24,33 +24,80 @@
   </head>
 
   <body>
-    <div class="jumbotron">
+    <!-- <div class="jumbotron">
       <h1 class="text-center">Generate a Random Number!</h1>
 
-      <div class="text-center">
-        <!-- Here we have our button for generating random numbers (#random-button) -->
+      <div class="text-center"> -->
+    <!-- Here we have our button for generating random numbers (#random-button) -->
 
-        <button id="random-button" class="btn btn-primary btn-lg">
+    <!-- <button id="random-button" class="btn btn-primary btn-lg">
           <h1><span class="fa fa-question"></span></h1>
         </button>
       </div>
-    </div>
+    </div> -->
 
     <!-- Here we have div called "random-number" where our random number will go -->
-    <h1 class="text-center" id="random-number"></h1>
+    <!-- <h1 class="text-center" id="random-number"></h1> -->
 
     <!---->
-    <div class="jumbotron">
+    <!-- <div class="jumbotron">
       <h1 class="text-center">Generate a Random Number!</h1>
 
       <div class="text-center">
-        <button id="lotto-Button" class="btn btn-primary">
+        <button id="lotto-Button" class="btn btn-primarY btn-lg">
           <h1><span class="fa fa-lotto"></span></h1>
         </button>
       </div>
     </div>
 
-    <h1 class="text-center" id="lotto-number"></h1>
+    <h1 class="text-center" id="lotto-number"></h1> -->
+
+    <div class="jumbotron">
+      <h1 class="text-center">Number Guesser</h1>
+      <h2 class="text-center">See if you can guess the number the computer is thinking of!</h2>
+    </div>
+  
+    <div class="container">
+  
+      <div class="card mt-1">
+        <div class="card-header">
+          <div class="card-body text-center">
+            <h3 class="card-title">Computer Pick</h3>
+            <h1 id="computer-pick">???</h1>
+          </div>
+        </div>
+  
+        <div class="card mt-1">
+          <div class="card-header">
+            <div class="card-body text-center">
+              <h3 class="card-title">You Pick</h3>
+              <button id="button-1" class="btn btn-danger btn-choice" value="1">
+                <h1>1</h1>
+              </button>
+              <button id="button-2" class="btn btn-danger btn-choice" value="2">
+                <h1>2</h1>
+              </button>
+              <button id="button-3" class="btn btn-danger btn-choice" value="3">
+                <h1>3</h1>
+              </button>
+              <button id="button-4" class="btn btn-danger btn-choice" value="4">
+                <h1>4</h1>
+              </button>
+            </div>
+          </div>
+  
+          <div class="card mt-1">
+            <div class="card-header">
+              <div class="card-body text-center">
+                <h3 class="card-title">Result</h3>
+                <h1 id="result"></h1>
+              </div>
+            </div>
+  
+          </div>
+    
+
+
 
     <script src="./intel.js" async defer></script>
   </body>
