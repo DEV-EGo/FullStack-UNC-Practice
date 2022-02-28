@@ -7,6 +7,9 @@ var chosenWord = "";
 // this will break the solution into individual letters to be stored
 var lettersInChosenWord = [];
 
+// This will be the number of blanks we show based on the solution.
+var numBlanks = 0;
+
 // This will be the number of blanks we show we based on the solutions
 var blanksAndSuccess = [];
 
@@ -22,3 +25,35 @@ var lossCounter = 0;
 var numGuesses = 9;
 
 // FUNCTIONS
+
+// How to start the game
+function startGame() {
+  // reset guesses back to 0
+  numGuesses = 9;
+
+  // random Solution from wordlist
+  chosenWord = wordlist[Math.floor(Math.random() * wordlist.length)];
+
+  //   breaking word into individual letters
+  lettersInChosenWord = chosenWord.split("");
+
+  //   counting number of letters in the word
+  numBlanks = lettersInChosenWord.length;
+
+  //   printing the solution in console for testing purposes
+  console.log(chosenWord);
+
+  //   **critical line
+  // Here we *reset* the guess and success array at each round.
+  blanksAndSuccess = [];
+
+  // CRITICAL LINE
+  // Here we *reset* the wrong guesses from the previous round.
+  wrongGuesses = [];
+
+  //   fill up the blank and success on list with appropiate number of blanks
+  // this is based on number of letters in the solution
+  for (var i = 0; i < numBlanks; i++) {
+    blanksAndSuccess.push("_");
+  }
+}
