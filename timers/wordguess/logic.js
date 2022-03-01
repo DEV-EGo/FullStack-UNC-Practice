@@ -68,3 +68,10 @@ function startGame() {
   //   clear the wrong guesses from the previous round
   document.getElementById("word-guesses").innerHTML = wrongGuesses.join("");
 }
+
+// check letters function
+// doing all the comparisons
+function checkLetter(letter) {
+  // boolean will be toggled based on wethere the user letter is Found
+  var letterInWord = false;
+}
