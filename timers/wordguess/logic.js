@@ -56,4 +56,15 @@ function startGame() {
   for (var i = 0; i < numBlanks; i++) {
     blanksAndSuccess.push("_");
   }
+  // Print the initial blanks in console.
+  console.log(blanksAndSuccess);
+
+  //   reprint the guesses left
+  console.log("guesses-left").innerHTML = numGuesses;
+
+  //print blanks at the beginning of each round
+  document.getElementById("word-blanks").innerHTML = blanksAndSuccess.join("");
+
+  //   clear the wrong guesses from the previous round
+  document.getElementById("word-guesses").innerHTML = wrongGuesses.join("");
 }
