@@ -60,13 +60,13 @@ function startGame() {
   console.log(blanksAndSuccess);
 
   //   reprint the guesses left
-  console.log("guesses-left").innerHTML = numGuesses;
+  document.getElementById("guesses-left").innerHTML = numGuesses;
 
   //print blanks at the beginning of each round
   document.getElementById("word-blanks").innerHTML = blanksAndSuccess.join("");
 
   //   clear the wrong guesses from the previous round
-  document.getElementById("word-guesses").innerHTML = wrongGuesses.join("");
+  document.getElementById("wrong-guesses").innerHTML = wrongGuesses.join("");
 }
 
 // check letters function
@@ -79,7 +79,7 @@ function checkLetter(letter) {
   for (var i = 0; i < numBlanks; i++) {
     if (chosenWord[i] === letter) {
       // if letter exist then it will toggle the boolean
-      letterinWord = true;
+      letterInWord = true;
     }
   }
 
@@ -110,7 +110,7 @@ function checkLetter(letter) {
   // this boolean will be toggled based on wether or not we are
   // a user letter is found anywhere in the word
 
-  var letterinWord = false;
+  var letterInWord = false;
 
   // check if a letter exist inside the array at all the
 
@@ -158,7 +158,7 @@ function roundComplete() {
 
   //   this will print the array of guesses and blanks onto the screen
 
-  document.getElementById("wrong-blanks").innerHTML = blankandsucess.join("");
+  document.getElementById("word-blanks").innerHTML = blankandsucess.join("");
 
   //   this will print out all the wrong guesses onto the page
   document.getElementById("wrong-guesses").innerHTML = wrongGuesses.join("");
