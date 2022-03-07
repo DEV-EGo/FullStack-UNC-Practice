@@ -45,7 +45,7 @@ function flipThatCoin(results) {
 
 $("#heads").on("click", function () {
   headCount++;
-  $("#heads-chosen").text(headsCount);
+  $("#heads-chosen").text(headCount);
   $("#guess").html("<b>Heads</b>");
   flipThatCoin(0);
 });
