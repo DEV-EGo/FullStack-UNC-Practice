@@ -16,15 +16,23 @@ setTimeout(timeUp, 1000 * 15);
 
 // step 3
 
-function fiveSeconds() {
+function fiveSecond() {
   // calling time-left id and adding h2 saying 10 seconds Left
 
   $("#time-left").append("<h2>About 10 seconds left! </h2>");
   console.log("10 seconds left");
 }
 
-function tenSeconds() {
+function tenSecond() {
   // adding h2 element which will alert 5 seconds left
   $("time-left").append("<h2> about 5 seconds left! </h2>");
   console.log("5 seconds left");
+}
+
+function timeUp() {
+  // in the element with an id of time-left adding h2 saying times up!
+  $("#time-left").append("<h2> Time Up</h2>");
+  console.log("time is up");
+
+  audio.play();
 }
