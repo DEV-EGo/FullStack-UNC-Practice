@@ -17,7 +17,7 @@ $("#resume").on("click", run);
 // the run functino set interval
 // that runs the decrement function once a seconds
 function run() {
-  clearingInterval(intervalId);
+  clearInterval(intervalId);
   intervalId = setInterval(decrement, 1000);
 }
 
