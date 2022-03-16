@@ -40,4 +40,17 @@ function count() {
 
 function timeCoverter(t) {
   // takes the current time in seconds and convert it to minute and second (mm:ss)
+
+  var minutes = Math.floor(t / 60);
+  var seconds = Math.floor(minutes * 60);
+
+  if (seconds < 10) {
+    seconds = "0" + seconds;
+  }
+  if (minutes === 0) {
+    minutes = "00";
+  } else if (minutes < 10) {
+    minutes = "0" + minutes;
+  }
+  return minutes + ":" + seconds;
 }
