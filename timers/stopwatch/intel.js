@@ -18,7 +18,7 @@ function reset() {
   time = 0;
   lap = 1;
 
-  $("#display").text("");
+  $("#display").text("00:00");
   $("#laps").text("");
 }
 
