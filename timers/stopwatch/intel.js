@@ -1,11 +1,11 @@
 // This code will run as soon as page loads
+
 window.onload = function () {
   $("#lap").on("click", recordLap);
   $("#stop").on("click", stop);
   $("#reset").on("click", reset);
   $("#start").on("click", start);
 };
-
 // variables that will hold the interval
 var intervalId;
 
@@ -43,7 +43,7 @@ function recordLap() {
   // save the variables
   var converted = timeConverter(time);
 
-  $("#laps").append("<p> lap: " + lap + ":" + converted + "</p>");
+  $("#laps").append("<p>Lap: " + lap + ":" + converted + "</p>");
 
   //done: incremet lap by 1. remember we can use "this" here instead
 
