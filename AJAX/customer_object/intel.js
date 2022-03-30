@@ -61,3 +61,33 @@ console.log(battlebuddies.testLastName);
 console.log(battlebuddies.newAdress.newStreetAdress);
 console.log(battlebuddies.newPhoneNumber[0].Newnumber);
 console.log(battlebuddies.newPhoneNumber[1].Newnumber);
+
+var infiniteAuto = {
+  workerName: " Evan",
+  workerLastName: " pulido",
+  age: 25,
+
+  workAdress: {
+    workstreetAdress: " wilkshire",
+    workCity: " concord ",
+    workState: " NC ",
+    workPostalcode: "2222",
+  },
+
+  workPhonenumber: [
+    {
+      worktype: "business",
+      workNumnber: "7054838383",
+    },
+    {
+      worktype: " cell number",
+      workNumnber: "03933939",
+    },
+  ],
+};
+
+console.log(infiniteAuto.workerName);
+console.log(infiniteAuto.workerLastName);
+console.log(infiniteAuto.workAdress.workstreetAdress);
+console.log(infiniteAuto.workPhonenumber[0].workNumnber);
+console.log(infiniteAuto.workPhonenumber[1].workNumnber);
