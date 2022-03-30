@@ -1,21 +1,23 @@
 var customer = {
-  firstName: "test",
-  lastName: "last name test",
+  firstName: "bobby",
+  lastName: "ricky",
   age: 25,
+
   adress: {
     streetAdress: "Jhon",
     city: "New York",
     State: "NY",
     postalCode: "10021",
   },
+
   phoneNumber: [
     {
       type: "home",
       number: "704121213131",
     },
     {
-      type: "",
-      number: "",
+      type: "cell",
+      number: "917412344",
     },
   ],
 };
@@ -30,3 +32,32 @@ console.log(customer.adress.State);
 console.log(customer.phoneNumber[0].number);
 // step 5: log the fax number
 console.log(customer.phoneNumber[1].number);
+
+var battlebuddies = {
+  testName: " doom ",
+  testLastName: " strange",
+  age: 28,
+  newAdress: {
+    newStreetAdress: " trap house",
+    newCity: " charlotte",
+    newState: " NC",
+    newPostalCode: " 28227",
+  },
+
+  newPhoneNumber: [
+    {
+      newType: "home",
+      Newnumber: "7023703270",
+    },
+    {
+      newType: "lair",
+      Newnumber: "837374747",
+    },
+  ],
+};
+
+console.log(battlebuddies.testName);
+console.log(battlebuddies.testLastName);
+console.log(battlebuddies.newAdress.newStreetAdress);
+console.log(battlebuddies.newPhoneNumber[0].Newnumber);
+console.log(battlebuddies.newPhoneNumber[1].Newnumber);
