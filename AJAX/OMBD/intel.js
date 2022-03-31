@@ -76,3 +76,25 @@ $.ajax({
   console.log(response);
   console.log(response.Runtime);
 });
+// ------------------------------------------------------
+$.ajax({
+  url: "https://www.omdbapi.com/?t=the+batman&y=&plot=short&apikey=trilogy",
+  method: "GET",
+}).then(function (response) {
+  console.log(response);
+  console.log(response.Runtime);
+});
+$.ajax({
+  url: "https://www.omdbapi.com/?t=the+planet+of+the+apes&y=&plot=short&apikey=trilogy",
+  method: "GET",
+}).then(function (response) {
+  console.log(response);
+  console.log(response.Runtime);
+});
+$.ajax({
+  url: "https://www.omdbapi.com/?t=shark+tale&y=&plot=short&apikey=trilogy",
+  method: "GET",
+}).then(function (response) {
+  console.log(response);
+  console.log(response.Runtime);
+});
