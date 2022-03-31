@@ -2,3 +2,11 @@
 var title = "space+jam";
 var queryURL =
   "https://www.ombdapi.com/?t=" + title + "&y=&plot=short&apikey=trilogy";
+
+$.ajax({
+  url: queryURL,
+  method: "GET",
+}).then(function (response) {
+  console.log(response);
+  console.log(response.Runtime);
+});
