@@ -8,5 +8,12 @@ $.ajax({
 }).then(function (response) {
   var tRow = $("<tr>");
 
-  var titleTd = $().text(response.Title);
+  var titleTd = $("<td>").text(response.Title);
+  var yearTd = $("<td>").text(response.Year);
+  var actorsTd = $("<td>").text(response.Actors);
+
+  tRow.append(titleTd, yearTd, actorsTd);
+
+  // append the table row to the table row
+  $("tbody").append(tRow);
 });
