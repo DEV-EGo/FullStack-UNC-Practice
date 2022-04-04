@@ -4,12 +4,41 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title></title>
+    <title>Favorite Movies</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="" />
   </head>
   <body>
-    <script src="" async defer></script>
+    <div class="container">
+      <h2>Basic Table</h2>
+      <p>
+        The .table class adds basic styling (light padding and only horizontal
+        dividers) to a table:
+      </p>
+
+      <table class="table">
+        <thead>
+          <tr>
+            <!-- scope attribute specifies this is a header for a column -->
+            <th scope="col">Movie</th>
+            <th scope="col">Year</th>
+            <th scope="col">Actors</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Interstellar</td>
+            <td>2014</td>
+            <td>
+              Ellen Burstyn, Matthew McConaughey, Mackenzie Foy, John Lithgow
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script src="./intel.js" async defer></script>
   </body>
 </html>
