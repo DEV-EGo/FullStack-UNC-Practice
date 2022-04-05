@@ -7,7 +7,10 @@
     <title>Favorite Movies</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css"
+    />
   </head>
   <body>
     <div class="container">
@@ -16,12 +19,11 @@
         The .table class adds basic styling (light padding and only horizontal
         dividers) to a table:
       </p>
-
       <table class="table">
         <thead>
           <tr>
-            <!-- scope attribute specifies this is a header for a column -->
-            <th scope="col">Movie</th>
+            <!-- The scope attribute specifies that this is a header for a column -->
+            <th scope="col">Movie Name</th>
             <th scope="col">Year</th>
             <th scope="col">Actors</th>
           </tr>
@@ -34,6 +36,7 @@
               Ellen Burstyn, Matthew McConaughey, Mackenzie Foy, John Lithgow
             </td>
           </tr>
+          <!-- Insert additional movie rows here -->
         </tbody>
       </table>
     </div>
