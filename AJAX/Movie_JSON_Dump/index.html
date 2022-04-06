@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Favorite Movie</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Movie Search</h1>
+
+      <!-- area where user will inputs data about the movie -->
+      <form id="movie-form">
+        <label for="movie-input">search for a movie</label>
+        <input type="text" id="movie-input" /><br />
+        <!-- button will trigger our ajax call -->
+        <input id="find-movie" type="submit" value="Movie Search" />
+      </form>
+    </div>
+
+    <!-- area json content will be dumped in -->
+
+    <div id="movie-review"></div>
+
+    <script src="./intel.js" async defer></script>
+  </body>
+</html>
