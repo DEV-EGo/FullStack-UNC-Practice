@@ -15,19 +15,19 @@
   <body>
     <div class="container">
       <h1>Movie Search</h1>
+   <!-- This form will be where users input data about the movies -->
+   <form id="movie-form">
+    <label for="movie-input">Search for a movie</label>
+    <input type="text" id="movie-input"><br>
 
-      <!-- area where user will inputs data about the movie -->
-      <form id="movie-form">
-        <label for="movie-input">search for a movie</label>
-        <input type="text" id="movie-input" /><br />
-        <!-- button will trigger our ajax call -->
-        <input id="find-movie" type="submit" value="Movie Search" />
-      </form>
-    </div>
+    <!-- This button will trigger our AJAX call -->
+    <input id="find-movie" type="submit" value="Movie Search">
+  </form>
 
-    <!-- area json content will be dumped in -->
+  <!-- We'll be dumping our JSON contents in here -->
+  <div id="movie-view"></div>
 
-    <div id="movie-review"></div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
     <script src="./intel.js" async defer></script>
   </body>
