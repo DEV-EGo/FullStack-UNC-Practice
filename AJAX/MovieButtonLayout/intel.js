@@ -1,3 +1,4 @@
+var movies = ["The matrix", "The notebook", "Mr.Nobody", "The lion king"];
 // function displaying movie data
 function renderButtons() {
   // deleting the movie button prior to adding a new movie
@@ -25,3 +26,14 @@ function renderButtons() {
     $("#movies-view").append(a);
   }
 }
+
+$("#add-movie").on("click", function (event) {
+  event.preventDefault();
+
+  var movie = $("#movie-input").val().trim();
+
+  movies.push(movie);
+
+  renderButtons();
+});
+renderButtons();
