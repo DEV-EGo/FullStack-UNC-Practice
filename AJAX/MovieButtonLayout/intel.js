@@ -1,6 +1,7 @@
 // Generic function for capturing the movie name from the data-attribute
 function alertMovieName() {
-  // YOUR CODE GOES HERE!!!
+  var movieName = $(this).attr("data-name");
+  alert(movieName);
 }
 // Initial array of movies
 var movies = ["The Matrix", "The Notebook", "Mr. Nobody", "The Lion King"];
