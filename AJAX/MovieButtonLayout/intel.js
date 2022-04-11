@@ -26,7 +26,7 @@ function renderButtons() {
     // Providing the button's text with a value of the movie at index i
     a.text(movies[i]);
     // Adding the button to the HTML
-    $("#movies-view").append(a);
+    $("#buttons-view").append(a);
   }
 }
 
