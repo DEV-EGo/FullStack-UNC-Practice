@@ -1,16 +1,18 @@
+// Initial array of movies
+var movies = ["The Matrix", "The Notebook", "Mr. Nobody", "The Lion King"];
+
 // Generic function for capturing the movie name from the data-attribute
 function alertMovieName() {
   var movieName = $(this).attr("data-name");
+
   alert(movieName);
 }
-// Initial array of movies
-var movies = ["The Matrix", "The Notebook", "Mr. Nobody", "The Lion King"];
 
 // Function for displaying movie data
 function renderButtons() {
   // Deleting the movie buttons prior to adding new movie buttons
   // (this is necessary otherwise we will have repeat buttons)
-  $("#movies-view").empty();
+  $("#buttons-view").empty();
 
   // Looping through the array of movies
   for (var i = 0; i < movies.length; i++) {
