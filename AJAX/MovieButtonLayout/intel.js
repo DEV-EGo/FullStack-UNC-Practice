@@ -1,11 +1,56 @@
 // Initial array of movies
 var movies = ["The Matrix", "The Notebook", "Mr. Nobody", "The Lion King"];
 
-// Generic function for capturing the movie name from the data-attribute
-function alertMovieName() {
-  var movieName = $(this).attr("data-name");
+function displayMovieInfo() {
+  // YOUR CODE GOES HERE!!! HINT: You will need to create a new div to hold the JSON.
 
-  alert(movieName);
+  var movie = $(this).attr("data-name");
+  var queryURL =
+    "https://www.ombdapi.com/?t=" + movie + "&y=&plot=short&apikey=trilogy";
+
+  $.ajax({
+    url: queryURL,
+    method: "GET",
+  }).then(function (response) {
+    // creating div to hold movie
+    var movieDiv = $("< div class = 'movie'>");
+
+    // storing the rating data
+    var pOne = $("<p>").text("Rating:" + rating);
+
+    // Displaying the rating
+    movieDiv.append(POne);
+
+    // storing the release year of movie
+    var released = response.Released;
+
+    // Creating element to hold the release year
+    var pTwo = $("<p>").text("Released:" + released);
+
+    // displaying
+    movieDiv.append(pTwo);
+
+    // storing the plot
+    var plot = response.Plot;
+
+    // creating an element to hold the plot
+    var pThree = $("<p>").text("Plot : " + plot);
+
+    // appending the plot
+    movieDiv.append(pThree);
+
+    // retrieving URL of image
+    var imgURL = response.Poster;
+
+    // creating an element to hold img
+    var image = $("<img>").attr("src", imgURL);
+
+    // appending image
+    movieDiv.append(image);
+
+    // putting the entire movie about the previous movie
+    $("#movies-view").prepend(movieDiv);
+  });
 }
 
 // Function for displaying movie data
@@ -32,8 +77,6 @@ function renderButtons() {
 
 // This function handles events where one button is clicked
 $("#add-movie").on("click", function (event) {
-  // event.preventDefault() prevents the form from trying to submit itself.
-  // We're using a form so that the user can hit enter instead of clicking the button if they want
   event.preventDefault();
 
   // This line will grab the text from the input box
@@ -41,6 +84,7 @@ $("#add-movie").on("click", function (event) {
   // The movie from the textbox is then added to our array
   movies.push(movie);
 
+  console.log(movies);
   // calling renderButtons which handles the processing of our movie array
   renderButtons();
 });
@@ -50,7 +94,7 @@ $("#add-movie").on("click", function (event) {
 // We're adding the event listener to the document itself because it will
 // work for dynamically generated elements
 // $(".movies").on("click") will only add listeners to elements that are on the page at that time
-$(document).on("click", ".movie", alertMovieName);
+$(document).on("click", ".movie", displayMovieInfo);
 
 // Calling the renderButtons function at least once to display the initial list of movies
 renderButtons();
