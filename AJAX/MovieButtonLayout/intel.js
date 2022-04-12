@@ -89,10 +89,7 @@ $("#add-movie").on("click", function (event) {
 });
 
 // Function for displaying the movie info
-// We're adding a click event listener to all elements with the class "movie"
-// We're adding the event listener to the document itself because it will
-// work for dynamically generated elements
-// $(".movies").on("click") will only add listeners to elements that are on the page at that time
+
 $(document).on("click", ".movie", displayMovieInfo);
 
 // Calling the renderButtons function at least once to display the initial list of movies
