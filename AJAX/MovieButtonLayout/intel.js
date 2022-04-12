@@ -6,7 +6,7 @@ function displayMovieInfo() {
 
   var movie = $(this).attr("data-name");
   var queryURL =
-    "https://www.ombdapi.com/?t=" + movie + "&y=&plot=short&apikey=trilogy";
+    "https://www.omdbapi.com/?t=" + movie + "&y=&plot=short&apikey=trilogy";
 
   $.ajax({
     url: queryURL,
@@ -19,7 +19,7 @@ function displayMovieInfo() {
     var pOne = $("<p>").text("Rating:" + rating);
 
     // Displaying the rating
-    movieDiv.append(POne);
+    movieDiv.append(pOne);
 
     // storing the release year of movie
     var released = response.Released;
@@ -38,7 +38,6 @@ function displayMovieInfo() {
 
     // appending the plot
     movieDiv.append(pThree);
-
     // retrieving URL of image
     var imgURL = response.Poster;
 
